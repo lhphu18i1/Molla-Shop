@@ -1,0 +1,127 @@
+
+body{
+    font-family: arial;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+.container{
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+.listing-items{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0 0 10px 10px;
+}
+.buttons{
+    text-align: right;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 38px;
+}
+.buttons a{
+    color: #FFF;
+    padding: 10px;
+    background: #000;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#admin-heading-panel{
+    background: #717171;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+}
+#admin-heading-panel a{
+    color: #fff;
+}
+.left-panel{
+    float: left;
+    padding-left: 10px;
+}
+.left-panel span{
+    color: #eeff09;
+    font-weight: bold;
+}
+.right-panel{
+    float: right;
+}
+.right-panel img{
+    vertical-align: middle;
+}
+.right-panel a{
+    margin-right: 10px;
+}
+.left-menu{
+    float: left;
+    width: 200px;
+    padding-left: 50px;
+}
+.main-content{
+    float: left;
+    width: 1000px;
+    margin-left: 60px;
+}
+.main-content h1{
+    margin: 0;
+    text-align: left;
+    background: #525151;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 40px;
+    border-radius: 10px 10px 0 0;
+    padding: 0 10px;
+}
+#content-wrapper .container{
+    padding: 15px 0;
+}
+.menu-heading{
+    background: #525151;
+    line-height: 20px;
+    padding: 10px;
+    color: #FFF;
+    border-radius: 10px 10px 0 0;
+    font-size: 18px;
+}
+.menu-items ul{
+    margin: 0;
+    padding: 0;
+}
+.menu-items ul li{
+    list-style: none;
+    line-height: 30px;
+    border-bottom: 1px dashed #ccc;
+    padding-left: 15px;
+}
+.menu-items ul li a{
+    color: #000;
+}
+.menu-items ul li:first-child{
+    border-top: 0;
+}
+.menu-items{
+    padding: 0 0px 15px 0px;
+    border: 1px solid #ccc;
+    border-radius: 0 0 10px 10px;
+}
+table{
+    margin-top: 10px;
+    border:1px solid black;
+    width: 977px;
+}
+th{
+    border:1px solid black;
+}
+td{
+    border:1px solid black;
+    text-align: center;
+}
